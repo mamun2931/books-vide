@@ -11,9 +11,6 @@ const BookProvider = ({children}) => {
 
 //  useEffect(()=> {
 //      const getAllReadListFromLocal = getAllReadListFromLocalDB()
-//      setStoredBooks(getAllReadListFromLocal)
-//     }, [])
-
     const handleMarkRead = (currentBook) =>{
 
         addToReadListLocalDB(currentBook)
